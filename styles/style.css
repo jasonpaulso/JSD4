@@ -4,6 +4,11 @@
 .container a {
   color:grey;
 }
+.name-header {
+  padding-top: 0;
+  margin-top: 0;
+  text-align: center;
+}
 .about {
 
 }
