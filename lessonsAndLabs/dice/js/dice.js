@@ -37,12 +37,15 @@ in the starter code folder to get started.
 */
 
 function rollDice() {
-  var random1 = Math.floor((Math.random() * 6) + 1);
-  var random2 = Math.floor((Math.random() * 6) + 1);
-  var firstClass = 'dice-' + random1;
-  var secondClass = 'dice-' + random2;
+    
+  function randomDie() { 
+    return Math.floor((Math.random() * 6) + 1)
+  };
+
+  var firstClass = 'dice-' + randomDie();
+  var secondClass = 'dice-' + randomDie();
+
   firstDie.className = firstClass;
   secondDie.className = secondClass;
 };
-
 
