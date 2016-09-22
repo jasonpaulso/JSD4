@@ -14,10 +14,6 @@ function calcPy(event) {
 }
 
 
-
-
-
-
 var r = document.querySelector('.circum-r');
 var c = document.querySelector('.circum-c');
 

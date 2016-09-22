@@ -19,6 +19,9 @@
 //   return number1 + number2;
 //   // var sum = 5;
 // }
+
+var b = 0;
+
 function add(x, y) {
   var sum = x + y
   return sum;
@@ -38,4 +41,11 @@ function divide(x,y) {
 function remainder(x, y) {
   var result = x % y;
   return result
+}
+
+function innerFunction() {
+  b = 3;
+  a = 2;
+  var c = a + b;
+  console.log(c);
 }
