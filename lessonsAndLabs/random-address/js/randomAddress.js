@@ -58,9 +58,6 @@ function addAddress(address) {
 
 
 
-// Array.prototype.randomFromArray = function() {
-//   return this[Math.floor((Math.random() * this.length))]
-// }
 
 // function generateAddress(e) {
 //  // TODO: randomly select one item from each of these arrays 
@@ -81,6 +78,9 @@ function addAddress(address) {
 //     return Math.floor((Math.random() * arrayLength));
 // };
 
+// Array.prototype.randomFromArray = function() {
+//   return this[Math.floor((Math.random() * this.length))]
+// }
 
-
+// http://stackoverflow.com/questions/948358/adding-custom-functions-into-array-prototype
 
